@@ -1,0 +1,29 @@
+{
+  "name": "wiki-gen",
+  "author": {
+    "name": "hitesh Saini",
+    "url": "https://github.com/fxnoob"
+  },
+  "bugs": {
+    "url": "https://github.com/fxnoob"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "bin": {
+    "wiki-gen": "index.js"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "chokidar": "^3.5.3",
+    "copy-dir": "^1.3.0",
+    "express": "^4.18.2",
+    "latex.js": "^0.12.4",
+    "marked": "^4.2.12",
+    "serve-static": "^1.15.0",
+    "svgdom": "^0.1.13"
+  }
+}
